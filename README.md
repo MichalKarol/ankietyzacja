@@ -5,7 +5,8 @@ Ankietyzacja PWr
 2. Rozpakuj rozszerzenie
 3. Przejdź do [chrome://extensions](chrome://extensions)
 4. Włącz tryb programisty (developer mode)
-5. Wybierz folder zawierający rozpakowane rozszerzenie
+5. Wczytaj rozpakowane rozszerzenie (load unpacked extension)
+6. Wybierz folder zawierający rozpakowane rozszerzenie
 
 Funkcje:
 * Zmiana skali na liniową
