@@ -1,0 +1,23 @@
+{
+    "name": "Ankietyzacja UI/UX Support",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Switching buttons and using slider for PWr questionnaire",
+    "content_scripts": [
+        {
+            "matches": ["https://ankietyzacja.pwr.wroc.pl/?swg=*"],
+            "run_at": "document_start",
+            "js": [
+                "bootstrap-slider.min.js",
+                "inject.js"
+            ],
+            "css": [
+                "bootstrap-slider.min.css",
+                "style.css"
+            ]
+        }
+    ],
+    "permissions": [
+        "https://ankietyzacja.pwr.wroc.pl/?swg=*"
+    ]
+  }
